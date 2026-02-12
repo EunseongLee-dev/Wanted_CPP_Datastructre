@@ -1,8 +1,5 @@
-//#define WIN32_LEAN_AND_MEAN
-
 #include <iostream>
-//#include <Windows.h>
-//#include <WinSock2.h>
+#include <cassert>
 
 // 템플릿으로 배열 만들기
 template<typename T, size_t size> // size_t size = 10 도 가능
@@ -17,8 +14,17 @@ public:
 	// 배열 연산자 오버로딩
 	T& operator[](size_t index)
 	{
-		return data[index];
-	
+		// 어써트(꼭 검증이 필요한 구문에 활용)
+		// 디버그 모드에서만 동작
+		assert(index < 0 || index >= size);
+
+		// 인덱스 범위 확인
+		//if (index < 0 || index >= size)
+		//{
+		//	__debugbreak();
+		//}
+		//return data[index];
+	}
 
 	const T& operator[](size_t index) const
 	{
