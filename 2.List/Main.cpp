@@ -1,5 +1,6 @@
 #include "List.h"
 #include <iostream>
+#include <vector>
 
 int main()
 {
@@ -8,6 +9,19 @@ int main()
 	{
 		list.Add(ix + 1);
 	}
+	
+	// Range-based loop
+	std::cout << "Range-based loop\n";
+	for (const int item : list)
+	{
+		std::cout << item << "\n";
+	}
+
+	// loop -Iterator
+	//for (List<int>::Iterator it = list.begin(); it != list.end(); ++it);
+	//{
+	//	std::cout << *it << "\n";
+	//}
 
 	std::cin.get();
 }
