@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.Array", "1.Array\1.Array.vcxproj", "{D9111914-693F-44DF-989E-82C4D18C92F0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.List", "2.List\2.List.vcxproj", "{AC498D5A-6A6C-43F9-9925-07384C2C2865}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.LinkedList", "3.LinkedList\3.LinkedList.vcxproj", "{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AC498D5A-6A6C-43F9-9925-07384C2C2865}.Debug|x64.Build.0 = Debug|x64
 		{AC498D5A-6A6C-43F9-9925-07384C2C2865}.Release|x64.ActiveCfg = Release|x64
 		{AC498D5A-6A6C-43F9-9925-07384C2C2865}.Release|x64.Build.0 = Release|x64
+		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Debug|x64.ActiveCfg = Debug|x64
+		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Debug|x64.Build.0 = Debug|x64
+		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Release|x64.ActiveCfg = Release|x64
+		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
