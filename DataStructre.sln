@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.List", "2.List\2.List.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.LinkedList", "3.LinkedList\3.LinkedList.vcxproj", "{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.DoublyLinkedList", "4.DoublyLinkedList\4.DoublyLinkedList.vcxproj", "{356637C7-E4F2-4242-815E-439688232941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,6 +29,10 @@ Global
 		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Debug|x64.Build.0 = Debug|x64
 		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Release|x64.ActiveCfg = Release|x64
 		{5F1D93C4-3836-4692-B00E-3C3D1AF45BFF}.Release|x64.Build.0 = Release|x64
+		{356637C7-E4F2-4242-815E-439688232941}.Debug|x64.ActiveCfg = Debug|x64
+		{356637C7-E4F2-4242-815E-439688232941}.Debug|x64.Build.0 = Debug|x64
+		{356637C7-E4F2-4242-815E-439688232941}.Release|x64.ActiveCfg = Release|x64
+		{356637C7-E4F2-4242-815E-439688232941}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
