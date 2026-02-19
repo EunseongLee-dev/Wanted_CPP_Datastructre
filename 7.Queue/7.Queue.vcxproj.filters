@@ -13,7 +13,7 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="리소스 파일\Container">
+    <Filter Include="Container">
       <UniqueIdentifier>{abae8323-1055-4d4f-b23d-9f91646d418d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -24,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Queue.h">
-      <Filter>리소스 파일\Container</Filter>
+      <Filter>Container</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
